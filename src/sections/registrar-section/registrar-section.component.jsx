@@ -76,7 +76,7 @@ class RegistrarSection extends React.Component {
                         required
                         />
                     </div>
-                    <CustomButton type='submit' onClick={() => this.getData()} isCenter>Sign up</CustomButton>
+                    <CustomButton type='submit' onClick={() => this.getData()} isCenter>SIGN UP</CustomButton>
                 </form>
                 {/* <div>{this.renderData()}</div> */}
           </div>
