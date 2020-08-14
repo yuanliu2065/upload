@@ -1,0 +1,10 @@
+.registrar-section {
+    margin: 70px 150px 0 150px;
+
+    .input-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 100px;
+        height: 50px;
+    }
+}

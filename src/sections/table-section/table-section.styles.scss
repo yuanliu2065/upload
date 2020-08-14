@@ -1,0 +1,64 @@
+.table-section {
+    padding: 50px 100px;
+    background-color: rgba(yellowgreen, .5) ;
+    
+
+    .info-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 200px;
+
+        .user-container {
+            border: 1px solid #ffffff;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 50px;
+            
+    
+            .user {
+                height: 100%;
+                width: 100%;
+                padding: 20px 50px;
+    
+                &:not(:last-child) {
+                    border-right: 2px solid white;
+                }
+            }
+    
+            
+        }
+
+        .motificar {
+            width: 100%;
+            
+
+            .editar {
+               height: 100%;
+               width: 50%;
+               background-color: yellowgreen;
+               border: none;
+               border-bottom: 1px solid white;
+               border-right: 1px solid white;
+               cursor: pointer;
+
+               &:hover {
+                background-color: rgb(114, 160, 21);
+               }
+            }
+
+            .cancel {
+               height: 100%;
+               width: 50%;
+               background-color: rgba(red, .3);
+               border: none;
+               border-bottom: 1px solid white;
+               cursor: pointer;
+
+               &:hover {
+                background-color: rgba(red, .5);
+               }
+            }
+        }
+    }
+    
+}

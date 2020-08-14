@@ -1,0 +1,44 @@
+.popup-container {
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    background-color: rgba(black, .7);
+    padding: 50px 200px 30px 200px;
+    position: fixed;
+    top: 100px;
+    left: 230px;
+    z-index: 1000;
+    color: white;
+    opacity: 0;
+    display: none;
+   
+    // position: relative;
+   
+    .popup-title {
+       font-size: 30px;
+       text-align: center;
+    }
+
+    .popup-form {
+        margin-top: 30px;
+        // height: 100%;
+
+        .popup-inputs {
+            
+        }
+    }
+
+    .popup-colse-container {
+        font-size: 50px;
+        color: red;
+        position: absolute;
+        top: -33px;
+        right: -10px;
+        cursor: pointer;
+    }
+}
+
+.has-popuped {
+    opacity: 1;
+    display: inline;
+}

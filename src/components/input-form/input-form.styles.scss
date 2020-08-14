@@ -1,0 +1,17 @@
+.input-form-container {
+    height: 60px;
+    width: 100%;
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .input-albel {
+       height: 30%;
+    }
+    
+    .input-form {
+        height: 70%;
+        width: 100%;
+
+    }
+}
